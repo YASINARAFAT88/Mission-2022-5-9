@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.head-title {
+    border-left: 4px solid rgb(243, 120, 75);
+    padding-left: 10px;
+}
+
+.orange-color {
+    color: rgb(243, 120, 75);
+}
+
+.explore-btn {
+    background-color: rgb(245, 80, 20);
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: block;
+    width: 25%;
+    margin-top: 25px;
+}
+
+.helf-width {
+    width: 50%;
+    margin: 10%;
+}
+
+.helf-width img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* My Mission Section  */
+.card-sec {
+    display: flex;
+    justify-content: center
+}
+
+.sec-title {
+    text-align: center;
+}
+
+.card-one img {
+    width: 30%;
+}
+
+.card-one {
+    width: 40%;
+    padding: 25px;
+    margin: 5%;
+    border-radius: 25px;
+    background-color: rgb(205, 162, 247);
+}
+
+.card-one p {
+    color: rgb(70, 69, 69);
+}
+
+.two {
+    background-color: rgb(243, 214, 161);
+}
+
+.three {
+    background-color: rgb(254, 215, 221);
+}
+
+/* section three  */
+.sec-tree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: url(images/shapes/shape-1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 15%;
+}
+
+.sizing {
+    margin-left: 90px;
+}
+
+.sizing-two {
+    width: 100%;
+    margin-right: 10%;
+    padding-left: 0;
+}
+
+/* Section Four  */
+
+.sizing-three {
+    width: 100%;
+    margin-left: 10%;
+    padding-left: 0;
+}
+
+.sec-foure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    background-image: url(images/shapes/shape-1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 15%;
+}
+
+/* Last Section  */
+.Uniqe {
+    display: flex;
+    align-items: center;
+}
+
+.bg-img {
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100px;
+}
+
+.bg-img img {
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
+}
+
+/* Footer Section  */
+
+footer {
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer-title {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer p {
+    font-weight: 100;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+}
